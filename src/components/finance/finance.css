@@ -1,0 +1,85 @@
+.finance {
+  margin-top: 250px;
+}
+.finance-main {
+  margin-top: 70px;
+}
+.finance-main .tableHeader {
+  height: 70px;
+  background-color: #747474;
+  font-size: 20px;
+  text-align: center;
+}
+.finance-main .tableBody {
+  height: 70px;
+  background-color: #535353;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .finance {
+    margin-top: 150px;
+  }
+  .finance-main {
+    margin-top: 50px;
+  }
+  .finance-main .tableHeader {
+    height: 60px;
+    font-size: 16px;
+  }
+  .finance-main .tableBody {
+    height: 60px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .finance {
+    margin-top: 100px;
+  }
+  .finance-main {
+    margin-top: 40px;
+  }
+  .finance-main .tableHeader {
+    height: 50px;
+    font-size: 14px;
+  }
+  .finance-main .tableBody {
+    height: 50px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .finance {
+    margin-top: 70px;
+  }
+  .finance-main {
+    margin-top: 40px;
+  }
+  .finance-main .tableHeader {
+    height: 40px;
+    font-size: 12px;
+  }
+  .finance-main .tableBody {
+    height: 40px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .finance {
+    margin-top: 40px;
+  }
+  .finance-main {
+    margin-top: 30px;
+  }
+  .finance-main .tableHeader {
+    height: 30px;
+    font-size: 10px;
+  }
+  .finance-main .tableBody {
+    height: 30px;
+    font-size: 6px;
+  }
+}
+
+/*# sourceMappingURL=finance.css.map */

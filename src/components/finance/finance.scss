@@ -1,0 +1,82 @@
+.finance{
+    margin-top: 250px;
+    &-main{
+        margin-top: 70px;
+        .tableHeader{
+            height: 70px;
+            background-color: #747474;
+            font-size: 20px;
+            text-align: center;
+        }
+        .tableBody{
+            height: 70px;
+            background-color: #535353;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .finance{
+        margin-top: 150px;
+        &-main{
+            margin-top: 50px;
+            .tableHeader{
+                height: 60px;
+                font-size: 16px;
+            }
+            .tableBody{
+                height: 60px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .finance{
+        margin-top: 100px;
+        &-main{
+            margin-top: 40px;
+            .tableHeader{
+                height: 50px;
+                font-size: 14px;
+            }
+            .tableBody{
+                height: 50px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .finance{
+        margin-top: 70px;
+        &-main{
+            margin-top: 40px;
+            .tableHeader{
+                height: 40px;
+                font-size: 12px;
+            }
+            .tableBody{
+                height: 40px;
+                font-size: 8px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 350px){
+    .finance{
+        margin-top: 40px;
+        &-main{
+            margin-top: 30px;
+            .tableHeader{
+                height: 30px;
+                font-size: 10px;
+            }
+            .tableBody{
+                height: 30px;
+                font-size: 6px;
+            }
+        }
+    }
+}

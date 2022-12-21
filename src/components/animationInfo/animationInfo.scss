@@ -1,0 +1,121 @@
+.animationInfo{
+    margin-top: 110px;
+    &-main{
+        display: flex;
+        margin-top: 150px;
+        align-items: center;
+        justify-content: space-between;
+        &-img{
+            img{
+                width: 100%;
+            }
+        }
+        li{
+            color: white;
+            font-size: 15px;
+        }
+        ul{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .animationInfo{
+        margin-top: 80px;
+        &-main{
+            margin-top: 90px;
+            li{
+                font-size: 14px;
+            }
+            ul{
+                height: 180px;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 800px){
+    .animationInfo{
+        margin-top: 50px;
+        &-main{
+            margin-top: 40px;
+            &-img{
+                flex: 2.5;
+            }
+            &-left, &-right{
+                flex: 2;
+            }
+            li{
+                font-size: 12px;
+            }
+            ul{
+                height: 120px;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 600px){
+    .animationInfo{
+        margin-top: 50px;
+        &-main{
+            margin-top: 40px;
+            li{
+                font-size: 10px;
+            }
+            ul{
+                height: 100px;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 500px){
+    .animationInfo{
+        margin-top: 40px;
+        &-main{
+            margin-top: 30px;
+            li{
+                font-size: 8px;
+            }
+            ul{
+                height: 90px;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 400px){
+    .animationInfo{
+        margin-top: 40px;
+        &-main{
+            margin-top: 20px;
+            li{
+                font-size: 6px;
+            }
+            ul{
+                height: 65px;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 330px){
+    .animationInfo{
+        margin-top: 40px;
+        &-main{
+            margin-top: 10px;
+            li{
+                font-size: 5px;
+            }
+            ul{
+                height: 60px;
+            }
+        }
+
+    }
+}

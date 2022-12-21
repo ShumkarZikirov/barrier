@@ -1,0 +1,68 @@
+.tables {
+  margin-top: 250px;
+}
+.tables .table {
+  margin-top: 70px;
+}
+.tables .tableHeader {
+  background-color: #582DE1;
+  height: 70px;
+  font-size: 15px;
+  text-align: center;
+}
+.tables .tableBody {
+  height: 70px;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .tables {
+    margin-top: 150px;
+  }
+  .tables .table {
+    margin-top: 60px;
+  }
+  .tables .tableHeader {
+    height: 60px;
+    font-size: 12px;
+  }
+  .tables .tableBody {
+    height: 60px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .tables {
+    margin-top: 80px;
+  }
+  .tables .table {
+    margin-top: 40px;
+  }
+  .tables .tableHeader {
+    height: 40px;
+    font-size: 8px;
+  }
+  .tables .tableBody {
+    height: 40px;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .tables {
+    margin-top: 60px;
+  }
+  .tables .table {
+    margin-top: 20px;
+  }
+  .tables .tableHeader {
+    height: 30px;
+    font-size: 8px;
+  }
+  .tables .tableBody {
+    height: 30px;
+    font-size: 6px;
+  }
+}
+
+/*# sourceMappingURL=database.css.map */

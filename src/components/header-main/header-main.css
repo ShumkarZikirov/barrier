@@ -1,0 +1,169 @@
+.headerMain {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.headerMain-title {
+  flex: 2;
+}
+.headerMain-title h2 {
+  position: absolute;
+  top: 30%;
+  font-size: 76px;
+}
+.headerMain-title h4 {
+  position: absolute;
+  top: 48%;
+  font-size: 24px;
+}
+.headerMain-title p {
+  position: absolute;
+  top: 55%;
+  max-width: 496px;
+  font-size: 16px;
+}
+.headerMain-title button {
+  position: absolute;
+  top: 70%;
+  width: 129px;
+  height: 36px;
+  background-color: #582DE1;
+  border-radius: 18px;
+  font-size: 12px;
+  color: white;
+}
+.headerMain-img {
+  flex: 4;
+}
+.headerMain-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .headerMain-title {
+    flex: 2;
+  }
+  .headerMain-title h2 {
+    top: 30%;
+    font-size: 50px;
+  }
+  .headerMain-title h4 {
+    top: 46%;
+    font-size: 18px;
+  }
+  .headerMain-title p {
+    top: 53%;
+    max-width: 400px;
+    font-size: 14px;
+  }
+  .headerMain-title button {
+    top: 68%;
+    width: 115px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .headerMain-img {
+    flex: 4;
+  }
+}
+@media screen and (max-width: 700px) {
+  .headerMain-title {
+    flex: 2;
+  }
+  .headerMain-title h2 {
+    top: 30%;
+    font-size: 37px;
+  }
+  .headerMain-title h4 {
+    top: 46%;
+    font-size: 15px;
+  }
+  .headerMain-title p {
+    top: 53%;
+    max-width: 300px;
+    font-size: 11px;
+  }
+  .headerMain-title button {
+    top: 68%;
+    width: 100px;
+    height: 26px;
+    font-size: 10px;
+  }
+  .headerMain-img {
+    flex: 4;
+  }
+}
+@media screen and (max-width: 550px) {
+  .headerMain-title h2 {
+    font-size: 30px;
+  }
+  .headerMain-title h4 {
+    font-size: 12px;
+  }
+  .headerMain-title p {
+    max-width: 250px;
+    font-size: 9px;
+  }
+  .headerMain-title button {
+    width: 90px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .headerMain-title h2 {
+    font-size: 20px;
+  }
+  .headerMain-title h4 {
+    font-size: 9px;
+  }
+  .headerMain-title p {
+    max-width: 170px;
+    font-size: 8px;
+  }
+  .headerMain-title button {
+    width: 80px;
+    height: 18px;
+    border-radius: 12px;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .headerMain-title h2 {
+    font-size: 18px;
+  }
+  .headerMain-title h4 {
+    font-size: 8px;
+  }
+  .headerMain-title p {
+    max-width: 170px;
+    font-size: 6px;
+  }
+  .headerMain-title button {
+    width: 60px;
+    height: 15px;
+    border-radius: 12px;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .headerMain-title h2 {
+    font-size: 16px;
+  }
+  .headerMain-title h4 {
+    font-size: 7px;
+  }
+  .headerMain-title p {
+    max-width: 170px;
+    font-size: 5px;
+  }
+  .headerMain-title button {
+    width: 50px;
+    height: 12px;
+    border-radius: 12px;
+    font-size: 6px;
+  }
+}
+
+/*# sourceMappingURL=header-main.css.map */

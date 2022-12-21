@@ -1,0 +1,15 @@
+.App{
+    background-color: #111111;
+    &-block{
+        max-width: 1170px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1000px){
+    .App{
+        background-color: #111111;
+        &-block{
+            width: 90%;
+        }
+    }
+}

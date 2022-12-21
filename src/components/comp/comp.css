@@ -1,0 +1,47 @@
+.comp {
+  margin-top: 200px;
+}
+.comp-main {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comp-main img {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .comp {
+    margin-top: 150px;
+  }
+  .comp-main {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .comp {
+    margin-top: 100px;
+  }
+  .comp-main {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .comp {
+    margin-top: 70px;
+  }
+  .comp-main {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .comp {
+    margin-top: 50px;
+  }
+  .comp-main {
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=comp.css.map */

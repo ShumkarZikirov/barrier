@@ -1,0 +1,165 @@
+.priceOffer {
+  margin-top: 250px;
+}
+.priceOffer-main {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceOffer-main-block {
+  border: 1px solid #454545;
+  background-color: #272727;
+  height: 396px;
+  width: 27%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.priceOffer-main-block h4 {
+  font-size: 32px;
+}
+.priceOffer-main-block p {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .priceOffer {
+    margin-top: 200px;
+  }
+  .priceOffer-main {
+    margin-top: 80px;
+  }
+  .priceOffer-main-block {
+    height: 306px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 24px;
+  }
+  .priceOffer-main-block p {
+    font-size: 14px;
+  }
+  .priceOffer-main-block img {
+    max-width: 75px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .priceOffer {
+    margin-top: 100px;
+  }
+  .priceOffer-main {
+    margin-top: 80px;
+  }
+  .priceOffer-main-block {
+    height: 280px;
+    padding: 10px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 18px;
+  }
+  .priceOffer-main-block p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .priceOffer-main-block img {
+    max-width: 65px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .priceOffer {
+    margin-top: 100px;
+  }
+  .priceOffer-main {
+    margin-top: 80px;
+  }
+  .priceOffer-main-block {
+    height: 230px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 16px;
+  }
+  .priceOffer-main-block p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .priceOffer-main-block img {
+    max-width: 55px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .priceOffer {
+    margin-top: 60px;
+  }
+  .priceOffer-main {
+    margin-top: 40px;
+  }
+  .priceOffer-main-block {
+    height: 180px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 14px;
+  }
+  .priceOffer-main-block p {
+    font-size: 8px;
+    text-align: center;
+  }
+  .priceOffer-main-block img {
+    max-width: 45px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .priceOffer {
+    margin-top: 60px;
+  }
+  .priceOffer-main {
+    margin-top: 40px;
+  }
+  .priceOffer-main-block {
+    height: 150px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 12px;
+  }
+  .priceOffer-main-block p {
+    font-size: 6px;
+    text-align: center;
+  }
+  .priceOffer-main-block img {
+    max-width: 35px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .priceOffer {
+    margin-top: 60px;
+  }
+  .priceOffer-main {
+    margin-top: 40px;
+  }
+  .priceOffer-main-block {
+    height: 120px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .priceOffer-main-block h4 {
+    font-size: 10px;
+  }
+  .priceOffer-main-block p {
+    font-size: 6px;
+    text-align: center;
+  }
+  .priceOffer-main-block img {
+    max-width: 25px;
+  }
+}
+
+/*# sourceMappingURL=priceOffer.css.map */
